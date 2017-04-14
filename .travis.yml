@@ -1,2 +1,9 @@
 language: node_js
-node_js: node 
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: NMLu9DwB0lUlAdUhOAk8nvvFTAp1oTsewFsr6J/SrpmwD7BdTOgKgcyBVapriJSXUfOYGadc7zLMwxUFN1FTxkYT+Jb1u7oRlS2KY3RDNtt/QSseqzWMMePOMtaPiMKXHFiEGH9uy9+Sc6VDLRXDkgmet6Go+o/VH9XI10L04Cn+sHgBU5lUbGmScnhWoMnD1szTttWSDcphNziFN0q5UUGdGslmsU8lKbIR46tmk4jCni2b0nv7VLVG+442OdWuk6wQ9pBEcmwBq1DuYiACATiWp/dpqxlTQ6ZGnQ+OhG8X9RJTngNbho+p4ltb7Yz/lMMWAXhN2kDMctfi8actP7kYx4KFBwvH7vei6DGPNt8Z69EBFtmKB8EB8P+EIRxO4w/eN5VT8jGRQI/vw9mG85DOFVN0h/yy5beMHJlbTn6Rxz93450m21RkZg6LRVRssk1MTsOLkFlSPJls/neIFI6kEaemZGFZ4f6xcN2RaQ0bDV25DAJXjf4zbHOiClLXg/s+/tM3zaaS7TzWfPxN/BOFPdIyMZKUf8QiC+KFBuTE913VvkZbAGOMA5rxoR1VKRKl0KKctHS6kcBQVC4k1K2kcNDV/WCRFoIf1uvzSW+vI63SlJTb8+XaBkDzoiK+m2uMXqEQVrGb4fxKbBQ57jxRVOSkTGayiUQIrGj3c3A=
+  app: serene-basin-24794
+  on:
+    repo: jylei/blogtravis
